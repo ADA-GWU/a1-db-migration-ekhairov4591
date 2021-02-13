@@ -110,7 +110,7 @@ psql -U postgress -d [DB_NAME] -f migration_2f.sql
 #### Now if all migration & migration finalization scripts were successful and no erros occured during their execution you can run DKS.sql 
 
 ```
-psql -U postgress -d [DB_NAME] -f DKS.sql
+psql -U postgres -d [DB_NAME] -f DKS.sql
 [Enter superuser password when prompted]
 ```
 
