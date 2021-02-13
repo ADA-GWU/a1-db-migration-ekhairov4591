@@ -59,6 +59,12 @@ that cleans up after migration_2.sql and is supposed to be run if no erros were 
 5.(OPTIONAL) DKS.sql 
 -is responsible for Key Set up between altered/newly-created tables. 
 It should be executed only if both migration_1f.sql & migration_2f.sql were successful and no rollback scripts were executed.
+
+6. rollback_1.sql
+-is responsible for the undoing changes done by migration_1.sql. It should be executed only after migration_1.sql if you desire to revert.
+
+7. rollback_2.sql
+-is responsible for the undoing changes done by migration_2.sql. It should be executed only after migration_2.sql if you desire to revert.
 ~~~~~~~~~~~~~~~~~~
 
 ## Usage Example for Migration as a postgres superuser
