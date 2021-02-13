@@ -4,7 +4,7 @@ a1-db-migration-ekhairov4591 created by GitHub Classroom
 
 # Migration & Rollback Scripts for POM_DB
 
-These scripts implement migration & rollback POM_DB for Production & Operations Mgmt.
+These scripts implement migration & rollback in a DB for Production & Operations Mgmt.
 
 ## Installation
 
