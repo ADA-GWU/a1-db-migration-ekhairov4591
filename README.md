@@ -77,7 +77,7 @@ It should be executed only if both migration_1f.sql & migration_2f.sql were succ
 psql -U postgres -d [DB_NAME] -f [FILENAME.sql]
 Enter superuser password
 ```
-### Actual Order & Steps
+## Actual Order & Steps
 
 ```
 psql -U postgres -d [DB_NAME] -f migration_1.sql
