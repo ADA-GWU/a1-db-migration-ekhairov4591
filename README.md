@@ -36,6 +36,7 @@ After dowloading and opening the folder you will see following files:
 #### (For more detailed explanation on what exactly scripts do open them with any text editor. Each step is commented and explained.)
 
 rollback_1.sql & rollback_2.sql can be executed only if migration_1.sql & migration_2.sql were executed prior to them.
+
 rollback_1.sql & rollback_2.sql cannot be exexuted after migration finalization scripts - migration_1f.sql & migration_2f.sql
 
 ~~~~~~~~~~~~~~~~~~
